@@ -24,6 +24,24 @@ ng g c child
 ng g c parent
 ng g c mainoffice
 ng g c suboffice
+ng g c student
+
+<br>
+<b>Description:- </b>
+
+In parent and child component I used content projection, @ContentChild, ngAfterContentInit(), and   ngAfterContentChecked().
+<app-parent>
+  <app-child></app-child>
+</app-parent>
+
+<br/>
+
+In mainoffice and suboffice component I used @ViewChild, ngAfterContentInit(), ngAfterViewInit(), ngAfterViewChecked() <br/>
+Here, In student component I used <ng-content></ng-content> for content projection. <br/>
+
+<b> Note </b> <br> 
+Content project = passing button /style/html from parent to child. <br>
+
 
 
 Software Used <br/>
